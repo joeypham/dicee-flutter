@@ -24,7 +24,7 @@ class DicePage extends StatefulWidget {
 
 class _DicePageState extends State<DicePage> {
   int leftDiceNumber = 3;
-  int rightDiceNumber= 2;
+  int rightDiceNumber= 1;
   void pressedDice() {
     setState(() {
       rightDiceNumber = Random().nextInt(6) + 1;
